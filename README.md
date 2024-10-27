@@ -1,4 +1,4 @@
-# 🎸 WebFishing MIDI Mod 🎤
+# 🎸 Potato MIDI Mod for Webfishing 🎤
 
 This mod for the game **WebFishing** lets you play guitar and sing directly in the game using a MIDI input device.
 
