@@ -20,11 +20,7 @@ This mod for the game **WebFishing** lets you play guitar and sing directly in t
 - Connect your MIDI input device before starting WebFishing.
 - Launch WebFishing with GDWeave.
 - Open the MIDI settings within the mod (if available) to configure your preferred instrument and vocal settings.
-  
-## Configuration
-Settings can be accessed in-game for:
-- **Instrument type** (e.g., Acoustic, Electric)
-- **Vocal effects** (e.g., Reverb, Echo)
+
 
 ## Troubleshooting
 - Ensure GDWeave and BlueberryWolfi's APIs are installed and up-to-date.
