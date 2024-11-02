@@ -13,8 +13,8 @@ var _state = {
 }
 var _player_api
 
-onready var _guitar_strummer = preload("res://mods/PotatoMidi/Scripts/Guitar/GuitarStrummer.gd").new()
-onready var _bark_effect = preload("res://mods/PotatoMidi/Scripts/Bark/BarkEffect.gd").new()
+onready var _guitar_strummer = load("res://mods/PotatoMidi/Scripts/Guitar/GuitarStrummer.gd").new()
+onready var _bark_effect = load("res://mods/PotatoMidi/Scripts/Bark/BarkEffect.gd").new()
 
 func _ready():
 	print("Midi: Initializing MIDI system...")

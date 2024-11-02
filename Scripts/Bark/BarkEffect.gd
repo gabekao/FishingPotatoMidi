@@ -8,13 +8,12 @@ const MIDI_ORIGINAL_NOTE = 53  # C3
 # Exported properties
 export(float) var bark_pitch_multiplier = 1.0
 
-
-
+var _last_bark_time = 0
 
 func trigger_bark(player, midi_pitch: int):
 	var pitch = _calculate_bark_pitch(midi_pitch)
 	_play_bark_effect(player, pitch)
-	_last_bark_time = current_time
+	_last_bark_time = OS.get_ticks_msec()
 
 func _calculate_bark_pitch(midi_pitch):
 	var semitone_difference = midi_pitch - MIDI_ORIGINAL_NOTE
