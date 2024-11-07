@@ -12,8 +12,8 @@ func update_strum(fret: int, time: int):
 	last_strum_time = time
 	last_fret = fret
 
-func can_play_pitch(pitch: int) -> bool:
+func can_play_pitch(pitch: int)->bool:
 	return pitch >= base_pitch and pitch < base_pitch + 16
 
-func get_fret_for_pitch(pitch: int) -> int:
+func get_fret_for_pitch(pitch: int)->int:
 	return pitch - base_pitch

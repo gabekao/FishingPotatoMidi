@@ -12,9 +12,9 @@ func reset():
 
 func update(last_played_string: int):
 	var index = queue.find(last_played_string)
-	if index != -1:
+	if index != - 1:
 		queue.pop_at(index)
 	queue.append(last_played_string)
 
-func get_string_priority(string_num: int) -> int:
+func get_string_priority(string_num: int)->int:
 	return queue.find(string_num)
